@@ -1,0 +1,13 @@
+---------------------查看文件内容命令--------------------------
+cat  aaa.txt                 查看aaa.txt文件中的内容（查看内容少时）
+cat -b aaa.txt               查看内容时加上了序号（不给空行编号）
+cat -n aaa.txt               给空行编号
+more aaa.txt                 分屏查看内容（查看内容多时）
+
+-----------------------搜索文件内容命令------------------
+grep a aaa.txt               显示aaa.txt中包含a的所有数据
+grep -n a aaa.txt            显示行号
+grep -vn a aaa.txt           显示不包含a的数据和行号
+grep -i a aaa.txt            忽略大小写
+grep ^z aaa.txt              显示以z开头的行数据
+grep z￥ aaa.txt             显示以g结尾的行数据
