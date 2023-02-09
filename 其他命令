@@ -1,0 +1,9 @@
+-------------------重定向-----------------
+echo hello > n            将hello写到n文件中
+ls -lh > n                将ls显示的结果写到n文件中去
+echo python >> n          将python追加到n文件中去
+tree >> n                 将tree的结果追加到n文件中
+ 
+------------------管道---------------------------
+ls -lha | more            将ls的内容分屏显示
+ls -lha | grep a          搜索ls内容中包含a的数据行
